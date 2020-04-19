@@ -72,12 +72,10 @@
 </template>
 
 <script>
-import TheSidebar from "../layout/TheSidebar";
 import BarChart from "../module/BarChart";
 
 export default {
   components: {
-    TheSidebar,
     BarChart
   },
   data() {

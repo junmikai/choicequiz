@@ -79,12 +79,10 @@
 </template>
 
 <script>
-import TheSidebar from "../layout/TheSidebar";
 import TheModal from "../module/TheModal";
 
 export default {
   components: {
-    TheSidebar,
     TheModal
   },
   data() {

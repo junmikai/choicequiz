@@ -20,11 +20,9 @@
 </template>
 
 <script>
-import TheSidebar from "../layout/TheSidebar";
 import LineChart from "../module/LineChart";
 export default {
   components: {
-    TheSidebar,
     LineChart
   },
   data() {
