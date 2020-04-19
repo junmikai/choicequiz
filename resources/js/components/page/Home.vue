@@ -5,14 +5,20 @@
         <article class="col-md-8 col-xs-12">
           <section class="home-quiz__introduction">
             <h2 class="home-quiz__introduction-h2">
-              <img class="home-quiz__introduction-h2-logo" src="/images/what-is-mark.png" />4 Answers Quizとは?
+              <img class="home-quiz__introduction-h2-logo" src="/images/howtoplay.png" />遊び方
             </h2>
-            <p>4 Answers Quizとはビジネスマナーから一般常識に至るまで様々なクイズを4択で出題するWEBアプリです。</p>
-            <p>何度もトライしてみて正解率100%を目指してみてください。</p>
+            <p>下記の出題設定で試したいジャンルを選択した後、出題開始のボタンをクリックするとクイズが始まります。
+              ただし選択したジャンルの合計が10問未満の場合はトップページに戻りますのでご注意ください。<br>
+              問題ページにクリック出来たらクイズ開始です。自分が正しいと思う選択肢をクリックすると答えと自分が正解したかどうかが表示されます。回答前に答えを見た場合、不正解扱いになりますのでご注意ください。<br>
+              ユーザー登録すると自分のクイズの履歴、ランキングに参加する事が出来ます！(ユーザー登録しなくてもクイズに参加可能です)
+              
+  
+              
+              </p>
           </section>
           <section class="home-quiz__setting">
             <h2 class="home-quiz__setting-h2">
-              <img class="home-quiz__setting-h2-logo" src="/images/directory-icon.png" />出題設定
+              <img class="home-quiz__setting-h2-logo" src="/images/category.png" />出題設定
             </h2>
             <form>
               <label v-for="(cate, index) in category" :key="index">
@@ -29,7 +35,7 @@
           </section>
           <section class="home-quiz__ranking">
             <h2 class="home-quiz__ranking-h2">
-              <img class="home-quiz__ranking-h2-logo" src="/images/graph-icon.png" />ランキング
+              <img class="home-quiz__ranking-h2-logo" src="/images/ranking.png" />ランキング
             </h2>
             <div>
               <label>
@@ -50,7 +56,7 @@
           </section>
           <section class="home__notice">
             <h2 class="home__notice-h2">
-              <img class="home__notice-h2-logo" src="/images/news-icon.png" />お知らせ情報
+              <img class="home__notice-h2-logo" src="/images/speaker.png" />お知らせ情報
             </h2>
             <dl v-for="(info, index) in information" :key="index">
               <dt>{{info.created_at}}</dt>

@@ -1,3 +1,4 @@
+<!-- 
 <template>
   <aside class="col-md-4 col-xs-12">
     <section class="sidebar-sns-section">
@@ -127,3 +128,4 @@
     </section>
   </aside>
 </template>
+HTMLコメント -->

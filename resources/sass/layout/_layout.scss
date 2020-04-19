@@ -19,20 +19,20 @@ body {
 main {
   margin-top: -22px;
   padding-top: 20px;
-  background: $gray;
+  background: $blue;
   padding-bottom: 50px;
   min-height: 1000px;
 }
 
 article {
-  border: solid $gray;
+  border: solid $blue;
   background: $white;
   width: 60%;
 }
 
 @media (min-width: 992px) {
   .col-md-8 {
-    width: 60%;
+    width: 100%;
   }
 
   .col-md-4 {
