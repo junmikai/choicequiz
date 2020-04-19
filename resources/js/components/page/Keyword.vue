@@ -1,5 +1,5 @@
-<template>
-  <div>
+ <!--<template>
+ <div>
     <main>
       <div class="container">
         <article class="col-md-8 col-xs-12">
@@ -53,4 +53,4 @@ export default {
     this.setkeyword(this.initial);
   }
 };
-</script>
+</script> -->

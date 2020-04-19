@@ -1,16 +1,16 @@
 <?php
 
-namespace App;
+// namespace App;
 
-use Illuminate\Database\Eloquent\Model;
+// use Illuminate\Database\Eloquent\Model;
 
-class Keyword extends Model
-{
+// class Keyword extends Model
+// {
 
-  protected $table = 'keywords';
+//   protected $table = 'keywords';
 
-  public function category()
-  {
-      return $this->hasOne('App\Category', 'id', 'categories_id');
-  }
-}
+//   public function category()
+//   {
+//       return $this->hasOne('App\Category', 'id', 'categories_id');
+//   }
+// }

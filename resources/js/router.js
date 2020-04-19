@@ -5,7 +5,7 @@ import Quiz from './components/page/Quiz'
 import Login from './components/page/Login'
 import Register from './components/page/Register'
 import Mypage from './components/page/Mypage'
-import Keyword from './components/page/Keyword'
+// import Keyword from './components/page/Keyword'
 Vue.use(Router)
 
 const router = new Router({
@@ -39,11 +39,11 @@ const router = new Router({
         requiresAuth: true
       }
     },
-    {
-      path: '/keyword',
-      name: 'keyword',
-      component: Keyword
-    },
+    // {
+    //   path: '/keyword',
+    //   name: 'keyword',
+    //   component: Keyword
+    // },
   ]
 });
 

@@ -82,7 +82,7 @@ export default {
   },
   data() {
     return {
-      categories: [1],
+      categories: [1,2,3,4,5,6],
       information: [],
       category: [],
       rankingAlldata: {},

@@ -1,6 +1,6 @@
-<!-- 
-<template>
-  <aside class="col-md-4 col-xs-12">
+
+<!--<template>
+   <aside class="col-md-4 col-xs-12">
     <section class="sidebar-sns-section">
       <h3 class="text-center sidebar-sns-h3">SNS共有</h3>
       <div class="sidebar-sns-links">
@@ -127,5 +127,5 @@
       </ul>
     </section>
   </aside>
-</template>
-HTMLコメント -->
+</template> -->
+

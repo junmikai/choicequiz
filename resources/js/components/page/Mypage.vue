@@ -5,7 +5,7 @@
         <article class="col-md-8 col-xs-12">
           <section class="article-section">
             <h2 class="mypage-h2">
-              <img class="mypage__logo" src="/images/mypage-icon.png" />マイページ
+              <img class="mypage__logo" src="/images/answer.png" />マイページ
             </h2>
             <h3
               v-if="changeCorrectRatioData.length !== 0"
