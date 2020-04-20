@@ -29,7 +29,7 @@ https://choicequiz.herokuapp.com/
 
 ## 使用技術
 
-<h3>バックエンド</h3>
+<h4>バックエンド</h4>
 <ul>
 <li>php 7.3.16</li>
 
@@ -41,7 +41,7 @@ https://choicequiz.herokuapp.com/
 <li>Laravel 5 Very Basic Auth</li>
 </ul>
 
-<h3>フロントエンド</h3>
+<h4>フロントエンド</h4>
 <ul>
 <li>Sass</li>
 <li>JavaScript</li>
@@ -51,19 +51,31 @@ https://choicequiz.herokuapp.com/
 <li>vue-chartjs 3.5.0</li>
 </ul>
 
-<h3>インフラ・開発環境等</h3>
+<h4>インフラ・開発環境等</h4>
 <ul>
 <li>Composer 1.10.5</li>
 <li>heroku</li>
 </ul>
 
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## 機能一覧
+<h4>下記のページはAPI連携による非同期通信を実施</h4>
+<ul>
+<li>ホーム画面のカテゴリー選択</li>
+<li>ホーム画面からクイズ画面に以降</li>
+<li>クイズ出題画面</li>
+</ul>
+<h4>ユーザー登録機能</h4>
+<ul>
+<li>CSRF保護でアプリケーションを操作していないユーザーの攻撃を対策</li>
+<li>登録済メールアドレスとパスワードによるログイン方式</li>
+<li>パスワードは8文字以上に制限</li>
+</ul>
+<h4>ランキング機能</h4>
+<ul>
+<li>laravel/helpersによる配列や文字列などの操作</li>
+<li>登録済メールアドレスとパスワードによるログイン方式</li>
+<li>パスワードは8文字以上に制限</li>
+</ul>
 
 ## Security Vulnerabilities
 
