@@ -29,23 +29,32 @@ https://choicequiz.herokuapp.com/
 
 ## 使用技術
 
-<h2>バックエンド</h2>
+<h3>バックエンド</h3>
 <ul>
 <li>php 7.3.16</li>
-<li>Composer 1.10.5</li>
+
 <li>php 7.3.16</li>
-<li>Laravel6.8</li>
-<li>axios0.19.2</li>
+<li>Larave l6.8</li>
+<li>axios 0.19.2</li>
+<li>vee-validate 3.2.5</li>
+<li>laravel-admin 1.7</li>
+<li>Laravel 5 Very Basic Auth</li>
 </ul>
 
-<h2>フロントエンド</h2>
+<h3>フロントエンド</h3>
 <ul>
 <li>Sass</li>
 <li>JavaScript</li>
-<li>vue@2.6.11 </li>
 <li>Bootstrap3</li>
-<li>chart.js</li>
-<li>vue-chartjs</li>
+<li>vue 2.6.11 </li>
+<li>chart.js 2.9.3</li>
+<li>vue-chartjs 3.5.0</li>
+</ul>
+
+<h3>インフラ・開発環境等</h3>
+<ul>
+<li>Composer 1.10.5</li>
+<li>heroku</li>
 </ul>
 
 ## Contributing
