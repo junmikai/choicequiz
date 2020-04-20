@@ -92,9 +92,5 @@ https://choicequiz.herokuapp.com/
 </ul>
 
 
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## デモ画面
+![demo](https://user-images.githubusercontent.com/61533662/79710832-21976f80-8301-11ea-882f-449f81732bf3.gif)
