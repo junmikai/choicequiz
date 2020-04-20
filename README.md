@@ -29,8 +29,23 @@ https://choicequiz.herokuapp.com/
 
 ## 使用技術
 
+<h2>バックエンド</h2>
 <ul>
-<li>php</li>
+<li>php 7.3.16</li>
+<li>Composer 1.10.5</li>
+<li>php 7.3.16</li>
+<li>Laravel6.8</li>
+<li>axios0.19.2</li>
+</ul>
+
+<h2>フロントエンド</h2>
+<ul>
+<li>Sass</li>
+<li>JavaScript</li>
+<li>vue@2.6.11 </li>
+<li>Bootstrap3</li>
+<li>chart.js</li>
+<li>vue-chartjs</li>
 </ul>
 
 ## Contributing
