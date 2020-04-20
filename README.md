@@ -13,10 +13,12 @@ https://choicequiz.herokuapp.com/
 
 ## 使用方法
 上記のアドレスをクリックしたら画面中央の出題開始をクリックするとクイズが始まります。
-<img width="710" alt="toppage" src="https://user-images.githubusercontent.com/61533662/79689539-7f3fa380-8290-11ea-84d3-8513ef152c54.png">
+<img width="500" alt="toppage" src="https://user-images.githubusercontent.com/61533662/79689539-7f3fa380-8290-11ea-84d3-8513ef152c54.png">
 
 
 クイズが始まったら1~4正しいと思う選択肢をクリックすると正解が発表されます。画像下のボタンをクリックすると次の問題に移ります。
+<img width="500" alt="スクリーンショット 2020-04-19 22 54 02" src="https://user-images.githubusercontent.com/61533662/79705325-3cadb380-82f0-11ea-99f5-4163e87ca76a.png">
+
 
 
 
