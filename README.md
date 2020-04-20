@@ -11,15 +11,19 @@ https://choicequiz.herokuapp.com/
 
 ## 使用方法
 上記のアドレスをクリックしたら画面中央の出題開始をクリックするとクイズが始まります。
+<br>
 <img width="500" alt="toppage" src="https://user-images.githubusercontent.com/61533662/79689539-7f3fa380-8290-11ea-84d3-8513ef152c54.png">
 <br>
 クイズが始まったら1~4正しいと思う選択肢をクリックすると正解が発表されます。画像下のボタンをクリックすると次の問題に移ります。
+<br>
 <img width="500" alt="quiz" src="https://user-images.githubusercontent.com/61533662/79705413-98783c80-82f0-11ea-80cf-df85021d0a1d.png">
 <br>
 問題10問解き終わった後に結果が発表されます。
+<br>
 <img width="500" alt="result" src="https://user-images.githubusercontent.com/61533662/79705524-f9a01000-82f0-11ea-9875-23b6c7f331a6.png">
 <br>
 ログインした状態で2回(20問)以上クイズを解くとトップページのマイページから正解率推移を確認する事が出来ます。
+<br>
 <img width="500" alt="graph" src="https://user-images.githubusercontent.com/61533662/79705781-d9248580-82f1-11ea-9157-3786ddcf7a86.png">
 <br>
 
