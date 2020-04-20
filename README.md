@@ -4,13 +4,16 @@
 ## 本番環境 URL
 
 https://choicequiz.herokuapp.com/
-
+<br>
 メールアドレス：anser@gmail.com
+<br>
 パスワード：07230723
+<br>
 (ログインしなくてもクイズに挑戦出来ます)
+<br>
 
 ## 使用方法
-上記のアドレスをクリックしたら画面中央の出題開始をクリックするとクイズが始まります。
+上記のURLをクリックしたら画面中央の出題開始をクリックするとクイズが始まります。
 <br>
 <img width="500" alt="toppage" src="https://user-images.githubusercontent.com/61533662/79689539-7f3fa380-8290-11ea-84d3-8513ef152c54.png">
 <br>
@@ -72,12 +75,23 @@ https://choicequiz.herokuapp.com/
 </ul>
 <h4>ランキング機能</h4>
 <ul>
-<li>laravel/helpersによる配列や文字列などの操作</li>
+<li>Objectのデータを追加</li>
 <li>登録済メールアドレスとパスワードによるログイン方式</li>
 <li>パスワードは8文字以上に制限</li>
 </ul>
 
-## Security Vulnerabilities
+## 管理画面
+<h4>Laravel-Adminでサイトの情報を管理</h4>
+<ul>
+<li>問題文</li>
+<li>選択肢</li>
+<li>正解の択</li>
+<li>クイズカテゴリー</li>
+<li>ユーザー情報</li>
+<li>Basic認証によるセキュリティ強化</li>
+</ul>
+
+
 
 If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
