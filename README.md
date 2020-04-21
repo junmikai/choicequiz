@@ -13,12 +13,12 @@ https://choicequiz.herokuapp.com/
 <br>
 
 ## 使用方法
-上記のURLをクリックしたら画面中央の出題開始をクリックするとクイズが始まります。
+①上記のURLをクリックしたら挑戦したいジャンルを選択してください(選択されたジャンルの合計問題数が10問以下の場合はTOPページに戻ります)
 <br>
-<img width="400" height="300" alt="toppage" src="https://user-images.githubusercontent.com/61533662/79689539-7f3fa380-8290-11ea-84d3-8513ef152c54.png">
+②出題開始をクリックするとクイズが始まります。
 <br>
 <br>
-クイズが始まったら1~4正しいと思う選択肢をクリックすると正解が発表されます。画像下のボタンをクリックすると次の問題に移ります。
+③ページが以降したら1~4正しいと思う選択肢をクリックすると正解が発表されます。画像下のボタンをクリックすると次の問題に移ります。
 <br>
 <img width="400" height="300" alt="quiz" src="https://user-images.githubusercontent.com/61533662/79705413-98783c80-82f0-11ea-80cf-df85021d0a1d.png">
 <br>
