@@ -7,14 +7,24 @@
             <h2 class="home-quiz__introduction-h2">
               <img class="home-quiz__introduction-h2-logo" src="/images/howtoplay.png" />遊び方
             </h2>
-            <p>下記の出題設定で試したいジャンルを選択した後、出題開始のボタンをクリックするとクイズが始まります。
-              ただし選択したジャンルの合計問題数が10問未満の場合はトップページに戻りますのでご注意ください。<br>
-              問題ページにクリック出来たらクイズ開始です。自分が正しいと思う選択肢をクリックすると答えと自分が正解したかどうかが表示されます。回答前に答えを見た場合、不正解扱いになりますのでご注意ください。<br>
-              ユーザー登録すると自分のクイズの履歴、ランキングに参加する事が出来ます！(ユーザー登録しなくてもクイズに参加可能です)
-              
-  
-              
-              </p>
+            <p>
+              ①このページ中央の「出題設定」から挑みたいジャンルを選択します()
+              ③ページが以降したら1~4正しいと思う選択肢をクリックすると正解が発表されます。画像下のボタンをクリックすると次の問題に移ります。
+              <br>
+              <img width="500" height="300" alt="quizpage" src="https://user-images.githubusercontent.com/61533662/79821006-9bdef700-83c8-11ea-8597-52c41d8aa2fe.png">
+              <br>
+              <br>
+              ④問題10問解き終わった後に結果が発表されます。
+              <br>
+              <img width="400" height="300" alt="result" src="https://user-images.githubusercontent.com/61533662/79705524-f9a01000-82f0-11ea-9875-23b6c7f331a6.png">
+              <br>
+              <br>
+              ⑤ログインした状態で2回(20問)以上クイズを解くとトップページのマイページから正解率推移を確認する事が出来ます。
+              <br>
+              <img width="400" height="300" alt="graph" src="https://user-images.githubusercontent.com/61533662/79705781-d9248580-82f1-11ea-9157-3786ddcf7a86.png">
+              <br>
+              <br>
+            </p>
           </section>
           <section class="home-quiz__setting">
             <h2 class="home-quiz__setting-h2">
