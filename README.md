@@ -17,11 +17,11 @@ https://choicequiz.herokuapp.com/
 <br>
 ②出題開始をクリックするとクイズが始まります。
 <br>
-<img width="400" height="300" alt="toppage" src="https://user-images.githubusercontent.com/61533662/79820943-7baf3800-83c8-11ea-9ba2-4313a78ff8ba.png">
+<img width="500" height="300" alt="toppage" src="https://user-images.githubusercontent.com/61533662/79820943-7baf3800-83c8-11ea-9ba2-4313a78ff8ba.png">
 <br>
 ③ページが以降したら1~4正しいと思う選択肢をクリックすると正解が発表されます。画像下のボタンをクリックすると次の問題に移ります。
 <br>
-<img width="400" height="300" alt="quizpage" src="https://user-images.githubusercontent.com/61533662/79821006-9bdef700-83c8-11ea-8597-52c41d8aa2fe.png">
+<img width="500" height="300" alt="quizpage" src="https://user-images.githubusercontent.com/61533662/79821006-9bdef700-83c8-11ea-8597-52c41d8aa2fe.png">
 <br>
 <br>
 ④問題10問解き終わった後に結果が発表されます。
@@ -39,8 +39,6 @@ https://choicequiz.herokuapp.com/
 
 <h4>バックエンド</h4>
 <ul>
-<li>php 7.3.16</li>
-
 <li>php 7.3.16</li>
 <li>Larave l6.8</li>
 <li>axios 0.19.2</li>
@@ -86,15 +84,19 @@ https://choicequiz.herokuapp.com/
 </ul>
 
 ## 管理画面
-<h4>Laravel-Adminでサイトの情報を管理</h4>
+<h4>Laravel-Adminでサイトの下記情報を新規作成、編集、削除できます</h4>
 <ul>
 <li>問題文</li>
 <li>選択肢</li>
 <li>正解の択</li>
 <li>クイズカテゴリー</li>
 <li>ユーザー情報</li>
-<li>Basic認証によるセキュリティ強化</li>
 </ul>
+
+<img width="500" height="300" alt="admin" src="https://user-images.githubusercontent.com/61533662/79821350-83231100-83c9-11ea-8bad-d66613352d77.png">
+
+## ER図
+<img width="500" alt="500" src="https://user-images.githubusercontent.com/61533662/79824281-de0c3680-83d0-11ea-917d-491bef7cc993.png">
 
 
 ## デモ画面
