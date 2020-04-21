@@ -9,17 +9,18 @@
             </h2>
             <p>
               ①このページ中央の「出題設定」から挑みたいジャンルを選択します
+              <br>
               ②ページが以降したら1~4正しいと思う選択肢をクリックすると正解が発表されます。画像下のボタンをクリックすると次の問題に移ります。
               <br>
               <img width="500" height="300" alt="quizpage" src="https://user-images.githubusercontent.com/61533662/79821006-9bdef700-83c8-11ea-8597-52c41d8aa2fe.png">
               <br>
               <br>
-              問題10問解き終わった後に結果が発表されます。
+              ③問題10問解き終わった後に結果が発表されます。
               <br>
               <img width="400" height="300" alt="result" src="https://user-images.githubusercontent.com/61533662/79705524-f9a01000-82f0-11ea-9875-23b6c7f331a6.png">
               <br>
               <br>
-              ⑤ログインした状態で2回(20問)以上クイズを解くとトップページのマイページから正解率推移を確認する事が出来ます。
+              ④ログインした状態で2回(20問)以上クイズを解くとトップページのマイページから正解率推移を確認する事が出来ます。
               <br>
               <img width="400" height="300" alt="graph" src="https://user-images.githubusercontent.com/61533662/79705781-d9248580-82f1-11ea-9157-3786ddcf7a86.png">
               <br>
