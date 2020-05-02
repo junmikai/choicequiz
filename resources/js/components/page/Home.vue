@@ -3,6 +3,23 @@
     <main>
       <div class="container">
         <article class="col-md-8 col-xs-12">
+            <section class="home-quiz__setting">
+            <h2 class="home-quiz__setting-h2">
+              <img class="home-quiz__setting-h2-logo" src="/images/category.png" />出題設定
+            </h2>
+            <form>
+              <label v-for="(cate, index) in category" :key="index">
+                <input type="checkbox" v-model="categories" :value="cate.id" checked />
+                {{cate.name}} 
+              </label>
+              <div>
+                全項目チェック
+                <button type="button" @click="checkAll">ON</button>
+                <button type="button" @click="checkAllOff">OFF</button>
+              </div>
+              <button type="submit" class="btn btn-success btn-lg" style="width:250px; height:75px;" @click.stop.prevent="goQuiz()">出題開始</button>
+            </form>
+          </section>
           <section class="home-quiz__introduction">
             <h2 class="home-quiz__introduction-h2">
               <img class="home-quiz__introduction-h2-logo" src="/images/howtoplay.png" />遊び方
@@ -26,23 +43,6 @@
               <br>
               <br>
             </p>
-          </section>
-          <section class="home-quiz__setting">
-            <h2 class="home-quiz__setting-h2">
-              <img class="home-quiz__setting-h2-logo" src="/images/category.png" />出題設定
-            </h2>
-            <form>
-              <label v-for="(cate, index) in category" :key="index">
-                <input type="checkbox" v-model="categories" :value="cate.id" checked />
-                {{cate.name}} 
-              </label>
-              <div>
-                全項目チェック
-                <button type="button" @click="checkAll">ON</button>
-                <button type="button" @click="checkAllOff">OFF</button>
-              </div>
-              <button type="submit" class="btn btn-primary" @click.stop.prevent="goQuiz()">出題開始</button>
-            </form>
           </section>
           <section class="home-quiz__ranking">
             <h2 class="home-quiz__ranking-h2">
