@@ -1,4 +1,14 @@
 $white: #fff;
-$thin-green:#178888;
+$thin-green:#a5f5d5;
+$thin-black:#000;
 $blue: rgb(201, 227, 250);
 $sidebar-header-blue: #a3c0da;
+@mixin headerbtn{
+  display: inline-block;
+  padding: 0.5em 1em;
+  background: #80bff3;
+  color: $white;
+  border-bottom: solid 4px #627295;
+  border-radius: 20px;
+  font-size:25px;
+}

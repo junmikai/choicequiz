@@ -1,10 +1,13 @@
 header {
   margin-top: -10px;
-  background: $white;
-
   h1 {
-    font-size: 20px;
-    margin: 20px;
+    font-size: 30px;
+    margin: 20px; 
+  }
+
+  #sitetitle{
+    font-size: 100px;
+    font-family:cursive;
   }
 
   .navbar-brand {
@@ -12,8 +15,10 @@ header {
   }
 
   .navbar {
-    background: $thin-green;
-    border-color: $thin-green;
+    height:75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .header {
@@ -29,32 +34,28 @@ header {
   #header {
     &-nav {
       &__home {
-        color: $white;
-        font-size: 25px;
+        @include headerbtn;
       }
-
       &__login {
-        color: $white;
-        font-size: 25px;
+        @include headerbtn;
+        margin-right:30px;
       }
 
       &__register {
-        color: $white;
-        font-size: 25px;
+        @include headerbtn;
       }
 
       &__name {
-        color: $white;
+        @include headerbtn;
+        margin-right:30px;
       }
 
       &__mypage {
-        color: $white;
-        margin: auto;
+        @include headerbtn;
       }
 
       &__logout {
-        color: $white;
-        margin: auto;
+        @include headerbtn;
       }
     }
   }
