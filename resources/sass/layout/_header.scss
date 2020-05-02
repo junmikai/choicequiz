@@ -12,8 +12,8 @@ header {
   }
 
   .navbar {
-    background: $thin-gray;
-    border-color: $thin-gray;
+    background: $thin-green;
+    border-color: $thin-green;
   }
 
   .header {
@@ -22,7 +22,7 @@ header {
       margin-top: -15px;
     }
     &-nav__drop-down {
-      background: $thin-gray;
+      background: $thin-green;
     }
   }
 
@@ -30,14 +30,17 @@ header {
     &-nav {
       &__home {
         color: $white;
+        font-size: 25px;
       }
 
       &__login {
         color: $white;
+        font-size: 25px;
       }
 
       &__register {
         color: $white;
+        font-size: 25px;
       }
 
       &__name {

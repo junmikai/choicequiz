@@ -20,15 +20,15 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <router-link class="navbar-brand" id="header-nav__home" to="/">ホーム</router-link>
+          <router-link class="navbar-brand" id="header-nav__home" to="/">home</router-link>
         </div>
         <div class="collapse navbar-collapse" id="navbar-ex-collapse">
           <ul class="nav navbar-nav navbar-right" v-if="auth.length === 0">
             <li>
-              <router-link id="header-nav__login" to="/login">ログイン</router-link>
+              <router-link id="header-nav__login" to="/login">login</router-link>
             </li>
             <li>
-              <router-link id="header-nav__register" to="/register">ユーザー登録</router-link>
+              <router-link id="header-nav__register" to="/register">sign up</router-link>
             </li>
           </ul>
           <ul class="nav navbar-nav navbar-right" v-if="auth.length !== 0">
@@ -46,8 +46,8 @@
               </a>
               <ul class="dropdown-menu header-nav__drop-down" role="menu">
                 <li>
-                  <router-link class="navbar-brand" id="header-nav__mypage" to="/mypage">マイページ</router-link>
-                  <a class="navbar-brand" id="header-nav__logout" @click="logout">ログアウト</a>
+                  <router-link class="navbar-brand" id="header-nav__mypage" to="/mypage">My page</router-link>
+                  <a class="navbar-brand" id="header-nav__logout" @click="logout">logout</a>
                   <form id="logout-form" action="/logout" method="POST" style="display: none;">
                     <input type="hidden" name="_token" :value="csrf" />
                   </form>
