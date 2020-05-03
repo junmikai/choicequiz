@@ -12,7 +12,7 @@
                 <input type="checkbox" v-model="categories" :value="cate.id" checked />
                 {{cate.name}} 
               </label>
-              <div>
+              <div class="allbtn">
                 全項目チェック
                 <button type="button" @click="checkAll">ON</button>
                 <button type="button" @click="checkAllOff">OFF</button>
