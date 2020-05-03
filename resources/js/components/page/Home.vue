@@ -3,6 +3,14 @@
     <main>
       <div class="container">
         <article class="col-md-8 col-xs-12">
+          <section class="home-quiz__introduction">
+            <h2 class="home-quiz__introduction-h2">
+              <img class="home-quiz__introduction-h2-logo" src="/images/howtoplay.png" />BusiChoiceとは？
+            </h2>
+            <p>
+              ビズネスに関する4択問題をランダムに10問出題。1回3分で終わるから隙間時間で遊べます！
+            </p>
+          </section>
             <section class="home-quiz__setting">
             <h2 class="home-quiz__setting-h2">
               <img class="home-quiz__setting-h2-logo" src="/images/category.png" />出題設定
@@ -22,7 +30,7 @@
           </section>
           <section class="home-quiz__introduction">
             <h2 class="home-quiz__introduction-h2">
-              <img class="home-quiz__introduction-h2-logo" src="/images/howtoplay.png" />遊び方
+              <img class="home-quiz__introduction-h2-logo" src="/images/book.png" />遊び方
             </h2>
             <p>
               ①このページ中央の「出題設定」から挑みたいジャンルを選択します

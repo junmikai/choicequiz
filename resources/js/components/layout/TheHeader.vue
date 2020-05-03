@@ -2,7 +2,7 @@
   <header>
     <div class="container text-center">
       <h1>3分でビジネスが学べる！</h1>
-      <h1 id="sitetitle">BizChoice</h1>
+      <h1 id="sitetitle">BusiChoice</h1>
       <router-link to="/">
       </router-link>
     </div>
