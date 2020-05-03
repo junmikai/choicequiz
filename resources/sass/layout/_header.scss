@@ -10,10 +10,6 @@ header {
     font-family:cursive;
   }
 
-  .navbar-brand {
-    color: $white;
-  }
-
   .navbar {
     height:75px;
     display: flex;
@@ -46,13 +42,15 @@ header {
         @include headerbtn;
         margin-right:30px;
       }
-
       &__mypage {
-        @include headerbtn;
+        font-size:30px;
+        margin-bottom:5px;
+        color:blue;
       }
 
       &__logout {
-        @include headerbtn;
+        font-size:30px;
+        color:red;
       }
     }
   }
