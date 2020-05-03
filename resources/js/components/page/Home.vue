@@ -5,7 +5,7 @@
         <article class="col-md-8 col-xs-12">
           <section class="home-quiz__introduction">
             <h2 class="home-quiz__introduction-h2">
-              <img class="home-quiz__introduction-h2-logo" src="/images/howtoplay.png" />BusiChoiceとは？
+              <img class="home-quiz__introduction-h2-logo" src="/images/top.png" />BusiChoiceとは？
             </h2>
             <p>
               ビズネスに関する4択問題をランダムに10問出題。1回3分で終わるから隙間時間で遊べます！
@@ -30,10 +30,10 @@
           </section>
           <section class="home-quiz__introduction">
             <h2 class="home-quiz__introduction-h2">
-              <img class="home-quiz__introduction-h2-logo" src="/images/book.png" />遊び方
+              <img class="home-quiz__introduction-h2-logo" src="/images/finger.png" />遊び方
             </h2>
             <p>
-              ①このページ中央の「出題設定」から挑みたいジャンルを選択します
+              ①上記の「出題設定」から挑みたいジャンルを選択したら「出題開始」ボタンを押します。
               <br>
               <br>
               ②ページが以降したら1~4正しいと思う選択肢をクリックすると正解が発表されます。画像下のボタンをクリックすると次の問題に移ります。
