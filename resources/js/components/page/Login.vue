@@ -3,7 +3,7 @@
     <main>
       <div class="container">
         <div class="row">
-          <div class="col-md-8 col-md-offset-2">
+          <div class="col-md-8 ">
             <div class="panel panel-default">
               <div class="panel-heading text-center">ログイン</div>
               <div class="form-group has-error" v-if="errors.length !== 0">
