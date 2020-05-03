@@ -10,6 +10,10 @@
           width: 10%;
         }
       }
+      p{
+        font-size:20px;
+      }
+
     }
     &__setting {
       padding: 5px 10px;
@@ -42,6 +46,10 @@
         &-logo {
           width: 10%;
         }
+      }
+    .bar-chart{
+        width:1000px;
+        height:1000px;
       }
     }
   }
