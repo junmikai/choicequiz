@@ -6,9 +6,10 @@
       <router-link to="/">
       </router-link>
       <div id="app">
-      <p>{{ message }}</p>
-      <p>{{ message2 }}</p>
-      <button v-on:click="changeMsg">Change</button> 
+    <button v-on:click="show = !show">表示切り替え</button>
+    <transition>
+        <div v-show="show" class="box">BOX</div>
+    </transition>
     </div>
     </div>
     <nav class="navbar">
@@ -70,7 +71,9 @@
 export default {
  
   data() {
+    
     return {
+      show: false,
        message: 'Hello Vue!',
        message2: 'Hoge',
       csrf: document
