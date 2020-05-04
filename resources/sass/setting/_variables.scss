@@ -8,4 +8,7 @@ $sidebar-header-blue: #a3c0da;
   border-bottom: solid 4px #627295;
   border-radius: 20px;
   font-size:25px;
+  &:hover {
+   background-color:#bd6363;
+  }
 }
