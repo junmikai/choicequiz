@@ -57,34 +57,9 @@ header {
     }
   }
 }
-
-#app {
-  text-align: center;
-  padding-top: 20px;
-}
-button {
-  font-size: 15px;
-  margin-bottom: 20px;
-  border: none;
-  color: #fff;
-  background: #48c2cd;
-  padding: 10px 20px;
-  cursor: pointer;
-  outline: none;
-  border-radius: 5px; 
-}
-.box {
-  background: #eee;
-  padding: 100px;
-  width: 100px;
-  text-align: center;
-  margin: 0 auto;
-}
-
-/* アニメーション中のスタイル */
 .v-leave-active,
 .v-enter-active {
-  transition: opacity 1s;
+  transition: opacity 5s;
 }
 .v-enter,
 .v-leave-to {

@@ -1,15 +1,13 @@
 <template>
   <header>
     <div class="container text-center">
+      <div id="app">
+    <transition appear>
+    <div v-show="show">
       <h1>3分でビジネスが学べる！</h1>
       <h1 id="sitetitle">BusiChoice</h1>
-      <router-link to="/">
-      </router-link>
-      <div id="app">
-    <button v-on:click="show = !show">表示切り替え</button>
-    <transition>
-        <div v-show="show" class="box">BOX</div>
-    </transition>
+      </div>
+      </transition>
     </div>
     </div>
     <nav class="navbar">
@@ -66,17 +64,12 @@
     </nav>
   </header>
 </template>
-
 <script>
 export default {
- 
-  data() {
-    
+  data() { 
     return {
-      show: false,
-       message: 'Hello Vue!',
-       message2: 'Hoge',
-      csrf: document
+       show: true,
+       csrf: document
         .querySelector('meta[name="csrf-token"]')
         .getAttribute("content")
     };
@@ -86,16 +79,7 @@ export default {
       type: Object | Array
     }
   },
-  mounted () {
-          this.setMsg();
-        },
   methods: {
-    setMsg: function () {
-            this.message = 'Set Message';
-          },
-          changeMsg: function() { 
-            this.message = 'Changed Message'
-          },
     logout() {
       document.querySelector("#logout-form").submit();
     }
