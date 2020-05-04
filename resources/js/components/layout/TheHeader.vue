@@ -5,6 +5,11 @@
       <h1 id="sitetitle">BusiChoice</h1>
       <router-link to="/">
       </router-link>
+      <div id="app">
+      <p>{{ message }}</p>
+      <p>{{ message2 }}</p>
+      <button v-on:click="changeMsg">Change</button> 
+    </div>
     </div>
     <nav class="navbar">
       <div class="container">
@@ -63,8 +68,11 @@
 
 <script>
 export default {
+ 
   data() {
     return {
+       message: 'Hello Vue!',
+       message2: 'Hoge',
       csrf: document
         .querySelector('meta[name="csrf-token"]')
         .getAttribute("content")
@@ -75,7 +83,16 @@ export default {
       type: Object | Array
     }
   },
+  mounted () {
+          this.setMsg();
+        },
   methods: {
+    setMsg: function () {
+            this.message = 'Set Message';
+          },
+          changeMsg: function() { 
+            this.message = 'Changed Message'
+          },
     logout() {
       document.querySelector("#logout-form").submit();
     }
