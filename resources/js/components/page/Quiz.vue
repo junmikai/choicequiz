@@ -38,10 +38,13 @@
                 disabled
               >{{ correctAnswerNo }}</button>
             </p>
+             
             <button @click="goAnswer(0)" v-show="!isAlreadyAnswered">正解を表示する</button>
+           <transition name="quiz">
             <div class="alert alert-info" v-show="isCorrect">
-              <strong>正解!</strong>
+                <strong>正解!</strong>
             </div>
+            </transition>
             <div class="alert alert-danger" v-show="isMistake">
               <strong>不正解!</strong>
             </div>

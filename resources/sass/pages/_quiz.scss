@@ -50,3 +50,10 @@
     }
   }
 }
+
+.quiz-enter-active {
+  transition: opacity 5s;
+}
+.quiz-enter {
+  opacity: 0;
+}
