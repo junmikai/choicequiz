@@ -62,7 +62,7 @@
             >{{ commentary }}</div>
             <button
               type="button"
-              class="btn btn-primary center-block"
+              class="btn btn-danger btn-lg center-block" style="width:250px; height:75px;"
               @click="goNextQuiz"
               v-if="!isQuizFinish"
             >次の問題へ</button>
@@ -70,7 +70,7 @@
               type="button"
               data-toggle="modal"
               data-target="#modal-result"
-              class="center-block"
+              class="btn btn-info btn-lg center-block" style="width:250px; height:75px;"
               v-show="isQuizFinish"
               @click="showResult"
             >結果を見る</button>
