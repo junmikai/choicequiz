@@ -13,7 +13,6 @@
             <line-chart :chartData="lineChartData" ref="chart"></line-chart>
           </section>
         </article>
-        <the-sidebar></the-sidebar>
       </div>
     </main>
   </div>

@@ -71,7 +71,6 @@
             >結果を見る</button>
           </section>
         </article>
-        <the-sidebar></the-sidebar>
       </div>
     </main>
     <the-modal :correctPercentageObject="correctPercentageObject" ref="modal"></the-modal>

@@ -87,7 +87,6 @@
             </dl>
           </section>
         </article>
-        <the-sidebar></the-sidebar>
       </div>
       <notifications />
     </main>
