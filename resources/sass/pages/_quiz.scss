@@ -50,10 +50,31 @@
     }
   }
 }
-
-.quiz-enter-active {
-  transition: opacity 5s;
+.correctfont{
+  font-size:75px;
+  font-weight: bold;
+  text-shadow: 3px 3px 5px rgba(217, 255, 0, 0.712);
+  color:blue;
 }
-.quiz-enter {
+
+.correct-enter-active {
+  transform: translate(0px, 0px);
+  transition: transform 500ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+}
+.correct-enter {
+  transform: translateX(100vw) translateX(0px);
+}
+
+.mistakefont{
+  font-size:75px;
+  font-weight: bold;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.712);
+  color:red;
+}
+
+.mistake-enter-active {
+  transition: opacity 3s;
+}
+.mistake-enter {
   opacity: 0;
 }

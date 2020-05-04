@@ -40,14 +40,16 @@
             </p>
              
             <button @click="goAnswer(0)" v-show="!isAlreadyAnswered">正解を表示する</button>
-           <transition name="quiz">
-            <div class="alert alert-info" v-show="isCorrect">
+           <transition name="correct">
+            <div class="correctfont" v-show="isCorrect">
                 <strong>正解!</strong>
             </div>
             </transition>
-            <div class="alert alert-danger" v-show="isMistake">
+            <transition name="mistake">
+            <div class="mistakefont" v-show="isMistake">
               <strong>不正解!</strong>
             </div>
+            </transition>
           </section>
           <section>
             <h2 class="quiz-commentary-h2">
