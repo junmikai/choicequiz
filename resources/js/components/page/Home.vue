@@ -25,7 +25,7 @@
                 <button type="button" @click="checkAll">ON</button>
                 <button type="button" @click="checkAllOff">OFF</button>
               </div>
-              <button type="submit" class="btn btn-success btn-lg" style="width:250px; height:75px;" @click.stop.prevent="goQuiz()">出題開始</button>
+              <button type="submit" class="btn-box btn-success" style="width:250px; height:75px;" @click.stop.prevent="goQuiz()">出題開始</button>
             </form>
           </section>
           <section class="home-quiz__introduction">
@@ -33,7 +33,7 @@
               <img class="home-quiz__introduction-h2-logo" src="/images/finger.png" />遊び方
             </h2>
             <div id="demo">
-              <button class="btn-box" v-on:click="show2 = !show2">遊び方はこちらをクリック</button>
+              <button class="btn-box btn-primary" v-on:click="show2 = !show2">遊び方はこちらをクリック</button>
               <transition name="bounce">
                  <p v-if="show2">
               ①上記の「出題設定」から挑みたいジャンルを選択したら「出題開始」ボタンを押します。
@@ -67,7 +67,7 @@
             </h2>
             <div id="app">
               <div class="btn">
-                <button class="btn-box" v-on:click='active02=!active02' v-bind:class='{active:active02}'>ランキングはこちらをクリック</button>
+                <button class="btn-box btn-primary" v-on:click='active02=!active02' v-bind:class='{active:active02}'>ランキングはこちらをクリック</button>
               </div>
                 <ul class="text">
                   <li class="serif" v-bind:class='{active:active02}'>
