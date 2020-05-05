@@ -57,11 +57,4 @@ header {
     }
   }
 }
-.v-leave-active,
-.v-enter-active {
-  transition: opacity 5s;
-}
-.v-enter,
-.v-leave-to {
-  opacity: 0;
-}
+

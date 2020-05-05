@@ -34,7 +34,7 @@
             </h2>
             <div id="demo">
               <button v-on:click="show2 = !show2">遊び方はこちらをクリック</button>
-              <transition name="fade">
+              <transition name="bounce">
                  <p v-if="show2">
               ①上記の「出題設定」から挑みたいジャンルを選択したら「出題開始」ボタンを押します。
               <br>
