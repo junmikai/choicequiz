@@ -32,12 +32,10 @@
             <h2 class="home-quiz__introduction-h2">
               <img class="home-quiz__introduction-h2-logo" src="/images/finger.png" />遊び方
             </h2>
-            <div id="app">
-              <div class="btn">
-                <button class="name" v-on:click='active01=!active01' v-bind:class='{active:active01}'>遊び方はこちらをクリック</button>
-              </div>
-                <ul class="text">
-                  <li class="serif" v-bind:class='{active:active01}'>
+            <div id="demo">
+              <button v-on:click="show2 = !show2">遊び方はこちらをクリック</button>
+              <transition name="fade">
+                 <p v-if="show2">
               ①上記の「出題設定」から挑みたいジャンルを選択したら「出題開始」ボタンを押します。
               <br>
               <br>
@@ -59,8 +57,8 @@
               <br>
               <br>
               <br>
-                </li>
-              </ul>
+              </p>
+              </transition>
             </div>
           </section>
           <section class="home-quiz__ranking">
@@ -129,6 +127,7 @@ export default {
       selectAll: false,
       active01: false,
       active02: false,
+      show2: false,
     };
   },
   mounted() {

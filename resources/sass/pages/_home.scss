@@ -67,29 +67,9 @@
   }
 }
 
-.serif {
-  display: none;
+.fade-enter-active, .fade-leave-active {
+  transition: opacity 2s;
 }
-
-.btn .active {
-  color: red;
-}
-
-button {
-  padding: 10px;
-  border-radius: 5px;
-  font-size: 14px;
-}
-
-button:hover {
-  opacity: 0.7;
-  cursor: pointer;
-}
-
-.text {
-  padding: 0;
-}
-
-.text .active {
-  display: block;
+.fade-enter, .fade-leave-to  {
+  opacity: 0;
 }
