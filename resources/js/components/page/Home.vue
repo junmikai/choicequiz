@@ -32,7 +32,12 @@
             <h2 class="home-quiz__introduction-h2">
               <img class="home-quiz__introduction-h2-logo" src="/images/finger.png" />遊び方
             </h2>
-            <p>
+            <div id="app">
+              <div class="btn">
+                <button class="name" v-on:click='active01=!active01' v-bind:class='{active:active01}'>遊び方はこちらをクリック</button>
+              </div>
+                <ul class="text">
+                  <li class="serif" v-bind:class='{active:active01}'>
               ①上記の「出題設定」から挑みたいジャンルを選択したら「出題開始」ボタンを押します。
               <br>
               <br>
@@ -54,12 +59,20 @@
               <br>
               <br>
               <br>
-            </p>
+                </li>
+              </ul>
+            </div>
           </section>
           <section class="home-quiz__ranking">
             <h2 class="home-quiz__ranking-h2">
               <img class="home-quiz__ranking-h2-logo" src="/images/ranking.png" />ランキング
             </h2>
+            <div id="app">
+              <div class="btn">
+                <button class="name" v-on:click='active02=!active02' v-bind:class='{active:active02}'>ランキングはこちらをクリック</button>
+              </div>
+                <ul class="text">
+                  <li class="serif" v-bind:class='{active:active02}'>
             <div>
               <label>
                 <input class="ranking-radio" type="radio" v-model="rankingType" value="1" />総合
@@ -75,7 +88,10 @@
               <bar-chart :chartData="total" ref="totalChart" v-show="rankingType === '1'"></bar-chart>
               <bar-chart :chartData="month" ref="monthChart" v-show="rankingType === '2'"></bar-chart>
               <bar-chart :chartData="week" ref="weekChart" v-show="rankingType === '3'"></bar-chart>
-            </div>
+            </div> 
+                </li>
+              </ul>
+            </div>      
           </section>
           <section class="home__notice">
             <h2 class="home__notice-h2">
@@ -110,7 +126,9 @@ export default {
       month: {},
       total: {},
       rankingType: "1",
-      selectAll: false
+      selectAll: false,
+      active01: false,
+      active02: false,
     };
   },
   mounted() {
