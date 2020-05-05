@@ -7,9 +7,9 @@
             <h2 class="home-quiz__introduction-h2">
               <img class="home-quiz__introduction-h2-logo" src="/images/top.png" />BusiChoiceとは？
             </h2>
-            <p>
-              ビズネスに関する4択問題をランダムに10問出題。1回3分で終わるから隙間時間で遊べます！
-            </p>
+            <transition appear name="slide-fade">
+            <p v-if="show">ビジネスに関する4択問題をランダムに10問出題。1回3分で終わるから隙間時間で遊べます！</p>
+            </transition>
           </section>
             <section class="home-quiz__setting">
             <h2 class="home-quiz__setting-h2">
@@ -127,6 +127,7 @@ export default {
       selectAll: false,
       active01: false,
       active02: false,
+      show:true,
       show2: false,
     };
   },
