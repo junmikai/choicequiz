@@ -95,7 +95,7 @@
 
                   <div class="form-group">
                     <div class="col-md-6 col-md-offset-4">
-                      <button type="submit" class="btn btn-primary">登録</button>
+                      <button type="submit" class="btn btn-primary" style="width:100px">登録</button>
                     </div>
                   </div>
                 </ValidationObserver>

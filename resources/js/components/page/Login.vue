@@ -57,9 +57,9 @@
                   <div class="form-group">
                     <div class="col-md-6 col-md-offset-4">
                       <div class="checkbox">
-                        <label>
+                        <!-- <label>
                           <input type="checkbox" name="remember" /> ログインを継続する
-                        </label>
+                        </label> -->
                       </div>
                     </div>
                   </div>
@@ -68,7 +68,7 @@
                     <div class="col-md-8 col-md-offset-4">
                       <button type="submit" class="btn btn-primary">ログイン</button>
 
-                      <a class="btn btn-link" href>パスワードをお忘れですか?</a>
+                      <!-- <a class="btn btn-link" href>パスワードをお忘れですか?</a> -->
                     </div>
                   </div>
                 </ValidationObserver>
