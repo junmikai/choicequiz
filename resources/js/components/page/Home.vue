@@ -77,7 +77,7 @@
                 <input class="ranking-radio" type="radio" v-model="rankingType" value="3" />今週
               </label>
             </div>
-            <div class="home_quiz__ranking-chart">
+            <div class="home_quiz__ranking-chart" style="height: 700px; width: 700px; margin:0 auto;">
               <bar-chart :chartData="total" ref="totalChart" v-show="rankingType === '1'"></bar-chart>
               <bar-chart :chartData="month" ref="monthChart" v-show="rankingType === '2'"></bar-chart>
               <bar-chart :chartData="week" ref="weekChart" v-show="rankingType === '3'"></bar-chart>

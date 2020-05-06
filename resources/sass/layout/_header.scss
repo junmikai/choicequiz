@@ -48,11 +48,15 @@ header {
         font-size:30px;
         margin-bottom:5px;
         color:blue;
+        font-weight: bold;
+        text-shadow: 3px 3px 5px rgba(0, 174, 255, 0.5);
       }
 
       &__logout {
         font-size:30px;
+        font-weight: bold;
         color:red;
+        text-shadow: 3px 3px 5px rgba(255, 0, 179, 0.5);
       }
     }
   }

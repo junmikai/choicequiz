@@ -7,10 +7,10 @@
             <h2 class="mypage-h2">
               <img class="mypage__logo" src="/images/answer.png" />マイページ
             </h2>
-            <h3
+            <h3 class="mypage-h3"
               v-if="changeCorrectRatioData.length !== 0"
             >直近{{changeCorrectRatioData.percentage_correct_answer.length }}回の正解率推移</h3>
-            <line-chart :chartData="lineChartData" ref="chart"></line-chart>
+            <line-chart :chartData="lineChartData" ref="chart" style="height: 600px; width: 600px; margin:0 auto;"></line-chart>
           </section>
         </article>
       </div>
