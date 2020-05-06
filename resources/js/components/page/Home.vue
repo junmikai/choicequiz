@@ -32,7 +32,6 @@
             <h2 class="home-quiz__introduction-h2">
               <img class="home-quiz__introduction-h2-logo" src="/images/finger.png" />遊び方
             </h2>
-            <div id="demo">
               <button class="btn-box btn-primary" v-on:click="show2 = !show2">遊び方はこちらをクリック</button>
               <transition name="bounce">
                  <p v-if="show2">
@@ -59,16 +58,12 @@
               <br>
               </p>
               </transition>
-            </div>
           </section>
           <section class="home-quiz__ranking">
             <h2 class="home-quiz__ranking-h2">
               <img class="home-quiz__ranking-h2-logo" src="/images/ranking.png" />ランキング
             </h2>
-            <div id="app">
-              <div class="btn">
                 <button class="btn-box btn-primary" v-on:click='active02=!active02' v-bind:class='{active:active02}'>ランキングはこちらをクリック</button>
-              </div>
                 <ul class="text">
                   <li class="serif" v-bind:class='{active:active02}'>
             <div>
@@ -88,8 +83,7 @@
               <bar-chart :chartData="week" ref="weekChart" v-show="rankingType === '3'"></bar-chart>
             </div> 
                 </li>
-              </ul>
-            </div>      
+              </ul>    
           </section>
           <section class="home__notice">
             <h2 class="home__notice-h2">
