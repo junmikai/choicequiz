@@ -60,9 +60,11 @@ header {
 
 .v-leave-active,
 .v-enter-active {
-  transition: opacity 5s;
+  transition: all 3s;
+  display: inline-block;
 }
 .v-enter,
 .v-leave-to {
   opacity: 0;
+  transform: translateY(-50px);
 }
