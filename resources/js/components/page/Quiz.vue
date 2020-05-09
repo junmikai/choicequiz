@@ -28,9 +28,6 @@
             <div class="text-right">カテゴリー: {{ categoryName }}</div>
           </section>
           <section>
-            <h2 class="quiz-correct-h2">
-              <img class="quiz-correct__logo" src="/images/answer.png" />正解
-            </h2>
             <p>
               <button
                 class="quiz-correct-answer"
