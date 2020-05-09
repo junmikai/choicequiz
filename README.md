@@ -100,7 +100,7 @@ https://choicequiz.herokuapp.com/
 
 
 ## デモ画面
-![demo](https://user-images.githubusercontent.com/61533662/79710832-21976f80-8301-11ea-882f-449f81732bf3.gif)
+![demos](https://user-images.githubusercontent.com/61533662/81476262-fba02380-924b-11ea-9edf-3856a34d2426.gif)
 
 ## 今後の課題
 テストコードの記載
