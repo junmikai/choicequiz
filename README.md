@@ -17,7 +17,7 @@ https://choicequiz.herokuapp.com/
 <br>
 ②出題開始をクリックするとクイズが始まります。
 <br>
-<img width="500" height="300" alt="choice" src="https://user-images.githubusercontent.com/61533662/81473001-c76e3800-9236-11ea-9d57-c5e481fd9b6a.png">
+<img width="600" height="300" alt="choice" src="https://user-images.githubusercontent.com/61533662/81473001-c76e3800-9236-11ea-9d57-c5e481fd9b6a.png">
 <br>
 ③ページが以降したら1~4正しいと思う選択肢をクリックすると正解が発表されます。画像下のボタンをクリックすると次の問題に移ります。
 <br>
