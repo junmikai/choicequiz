@@ -8,7 +8,10 @@
               <img class="home-quiz__introduction-h2-logo" src="/images/top.png" />BusiChoiceとは？
             </h2>
             <transition appear name="slide-fade">
-            <p v-if="show">ビジネスに関する4択問題をランダムに10問出題。1回3分で終わるから隙間時間で遊べます！</p>
+            <p v-if="show">ビジネスに関する4択問題をランダムに10問出題。1回3分で終わるから隙間時間で遊べます！
+              <br>
+              ログインしなくてもクイズに挑戦出来ます！
+            </p>
             </transition>
           </section>
             <section class="home-quiz__setting">
