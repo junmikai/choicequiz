@@ -43,19 +43,19 @@
               <br>
               ②ページが以降したら1~4正しいと思う選択肢をクリックすると正解が発表されます。画像下のボタンをクリックすると次の問題に移ります。
               <br>
-              <img width="400" height="250" alt="quizpage" src="https://user-images.githubusercontent.com/61533662/79821006-9bdef700-83c8-11ea-8597-52c41d8aa2fe.png">
+              <img width="500" height="300" alt="quiz" src="https://user-images.githubusercontent.com/61533662/81472840-609c4f00-9235-11ea-918e-75d49f13f105.png">
               <br>
               <br>
               <br>
               ③問題10問解き終わった後に結果が発表されます。
               <br>
-              <img width="400" height="300" alt="result" src="https://user-images.githubusercontent.com/61533662/79705524-f9a01000-82f0-11ea-9875-23b6c7f331a6.png">
+              <img width="300" height="300" alt="result" src="https://user-images.githubusercontent.com/61533662/81472869-8b86a300-9235-11ea-9188-878b40ab686b.png">
               <br>
               <br>
               <br>
               ④ログインした状態で2回(20問)以上クイズを解くとトップページのマイページから正解率推移を確認する事が出来ます。
               <br>
-              <img width="400" height="300" alt="graph" src="https://user-images.githubusercontent.com/61533662/79705781-d9248580-82f1-11ea-9157-3786ddcf7a86.png">
+              <img width="300" height="300" alt="graph" src="https://user-images.githubusercontent.com/61533662/81472884-a35e2700-9235-11ea-92da-87315ecc0683.png">
               <br>
               <br>
               <br>
